@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../logo.svg'
+import './navbar.scss';
 
 function Navbar() {
   return (
@@ -23,7 +24,7 @@ function Navbar() {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
 export default Navbar
