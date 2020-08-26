@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.scss';
+import React, { Fragment } from 'react';
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import './App.scss';
+import Navbar from './components/Navbar/Navbar'
+
 
 function App() {
   return (
-    <div>
-      <h1>The Current App</h1>
-      <i className="fas fa-home fa-7x" />
-    </div>
+    <Fragment>
+      <Navbar />
+    </Fragment>
   );
 }
 
