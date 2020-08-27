@@ -3,7 +3,6 @@ import Tour from '../Tour';
 import './tourlist.scss';
 import { tourData } from '../../tourData';
 
-
 class TourList extends Component {
   /* 
     Set up state...
