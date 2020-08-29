@@ -32,8 +32,8 @@ class Tour extends Component {
     return (
       <article className="tour">
         <div className="img__container">
-          <img src={img} alt="type of tour" />
-          <span className="close__btn">
+          <img src={img} alt="city tour" />
+          <span className="close__btn" onClick={() => removeTour(id)}>
             <i className="fas fa-window-close" />
           </span>
         </div>
